@@ -1,0 +1,35 @@
+{
+  "name": "@sajidfayaz/redis-ratelimiter",
+  "version": "1.0.0",
+  "description": "Production-ready sliding window rate limitter using Redis",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sajidfayaz/redis-rateLimiter.git"
+  },
+  "keywords": ["rate-limiter", "redis", "sliding-window", "express"],
+  "author": "Sajid Fayaz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sajidfayaz/redis-rateLimiter/issues"
+  },
+  "homepage": "https://github.com/sajidfayaz/redis-rateLimiter#readme",
+  "dependencies": {
+    "redis": "^5.10.0"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "redis-mock": "^0.56.3"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coverageDirectory": "coverage",
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ]
+  }
+}

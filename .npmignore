@@ -1,0 +1,6 @@
+tests/
+examples/
+coverage/
+.git/
+.gitignore
+*.test.js
