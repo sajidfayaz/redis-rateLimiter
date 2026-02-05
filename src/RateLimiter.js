@@ -7,7 +7,7 @@ class RateLimiter {
 
         this.redis = redis;
         this.windowMs = options.windowMs || 60000;
-        this.maxRequests = options.maxRequests || 100;
+        this.maxRequests = options.maxRequests ?? 100;
         this.keyPrefix = options.keyPrefix || 'ratelimit';
         this.failClosed = options.failClosed || false;
 
