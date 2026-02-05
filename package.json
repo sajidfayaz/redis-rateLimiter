@@ -1,7 +1,7 @@
 {
   "name": "@sajidfayaz/redis-ratelimiter",
   "version": "1.0.0",
-  "description": "Production-ready sliding window rate limitter using Redis",
+  "description": "Production-ready sliding window rate limiter using Redis",
   "main": "src/index.js",
   "scripts": {
     "test": "jest",
