@@ -21,7 +21,7 @@ describe('RateLimiter Constructor', () => {
 
         expect(limiter.windowMs).toBe(60000);
         expect(limiter.maxRequests).toBe(100);
-        expect(limiter.keyPrefix).toBe('rateLimit');
+        expect(limiter.keyPrefix).toBe('ratelimit');
     });
 
 });
